@@ -267,3 +267,37 @@ form.attachmentsBackend + div.attachmentsList table {
 div.attachmentsContainer .redicon {
     color: red;
 }
+
+
+/* =========================================================
+ATTACHMENTS – table scrolling on small screens
+========================================================= */
+
+.attachmentsContainer,
+.attachmentsList,
+div[id^="attachmentsList"] {
+display: block;
+width: 100%;
+max-width: 100%;
+overflow-x: auto;
+overflow-y: hidden;
+-webkit-overflow-scrolling: touch;
+}
+
+.attachmentsContainer table,
+.attachmentsList table,
+div[id^="attachmentsList"] table {
+width: 100%;
+min-width: 720px;
+margin: 0;
+border-collapse: collapse;
+}
+
+/* Prevents headers and data from being compressed */
+.attachmentsList th,
+.attachmentsList td,
+div[id^="attachmentsList"] th,
+div[id^="attachmentsList"] td {
+white-space: normal;
+vertical-align: middle;
+}
