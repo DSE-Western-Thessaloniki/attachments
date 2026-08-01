@@ -280,7 +280,6 @@ display: block;
 width: 100%;
 max-width: 100%;
 overflow-x: auto;
-overflow-y: hidden;
 -webkit-overflow-scrolling: touch;
 }
 
@@ -291,13 +290,4 @@ width: 100%;
 min-width: 720px;
 margin: 0;
 border-collapse: collapse;
-}
-
-/* Prevents headers and data from being compressed */
-.attachmentsList th,
-.attachmentsList td,
-div[id^="attachmentsList"] th,
-div[id^="attachmentsList"] td {
-white-space: normal;
-vertical-align: middle;
 }
