@@ -30,11 +30,11 @@ class AttachmentsDefines
 {
     /** The Attachments extension version number
      */
-    public static $ATTACHMENTS_VERSION = '4.2.4';
+    public static $ATTACHMENTS_VERSION = '4.2.5';
 
     /** The Attachments extension version date
      */
-    public static $ATTACHMENTS_VERSION_DATE = 'June 30, 2026';
+    public static $ATTACHMENTS_VERSION_DATE = 'August 14, 2026';
 
     /** Project URL
      */
